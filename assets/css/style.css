@@ -6,13 +6,13 @@
 }
 
 body {
-    width: 90%;
+    width: 70%;
     margin: 2%;
 }
 
 section {
     border: 2px solid black;
-    padding: 5%;
+    padding: 2%;
 }
 
 p {
@@ -20,13 +20,25 @@ p {
 }
 
 li {
-    font-size: 0.8rem;
     line-height: 1.5em;
+    list-style: none;
 }
 
 ul {
     padding-inline-start: 1.2em;
 }
+
+ul li {
+}
+
+ul li ul li {
+    font-size: 0.8em;
+}
+
+ul li ul li ul li {
+    font-size: 0.8em;
+}
+
 
 .dog::before {
     content: "🐕 ";
