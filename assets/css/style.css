@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: 2%;
+}
+
+section {
+    border: 2px solid black;
+    padding: 5%;
+}
+
+p {
+    padding: 2% 0;
+}
+
+li {
+    font-size: 0.8rem;
+    line-height: 1.5em;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+.dog::before {
+    content: "🐕 ";
+}
+
+.cat::before {
+    content: "🐱 ";
+}
+
+.parrot::before {
+    content: "🦜 ";
+}
+
+.snake::before {
+    content: "🐍 ";
+}
+
+.lizzard::before {
+    content: "🦎 ";
+}
